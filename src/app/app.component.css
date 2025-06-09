@@ -1,8 +1,12 @@
-h1, h2{color:navy;}
-p{font-size:13px;}
-:host {
-    font-family: Verdana;
-    color: #555;
+a {
+    padding-left: 2px;
+    margin-right: 4px;
+    flex: 1;
+    text-decoration-color: chocolate;
 }
-input{border-color: black;}
-.gold{border-color: gold;}
+.navigation{
+    display: flex;
+    background-color: cornflowerblue;
+    height: 30px;
+    line-height: 26px;
+}

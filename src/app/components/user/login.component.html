@@ -1,0 +1,16 @@
+<div>
+    <h1>LogIn User</h1>
+    <form>
+        <p>
+            <label>LOGIN: </label>
+            <input type="text" [(ngModel)] = "login"/>
+        </p>
+        <p>
+            <label>PASSWORD: </label>
+            <passwordInput [(password)] = "password"></passwordInput>
+        </p>
+        <p>
+            <button (click) = "tryLogIn($event)">REGISTRATION</button>
+        </p>
+    </form>
+</div>

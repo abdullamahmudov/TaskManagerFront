@@ -1,0 +1,20 @@
+<div>
+    <h1>Registation User</h1>
+    <form>
+        <p>
+            <label>LOGIN: </label>
+            <input type="text" [(ngModel)] = "login" required="true"/>
+        </p>
+        <p>
+            <label>NAME: </label>
+            <input type="text" [(ngModel)] = "name"/>
+        </p>
+        <p>
+            <label>PASSWORD: </label>
+            <passwordInput [(password)] = "password"></passwordInput>
+        </p>
+        <p>
+            <button (click) = "tryRegistration($event)">REGISTRATION</button>
+        </p>
+    </form>
+</div>
